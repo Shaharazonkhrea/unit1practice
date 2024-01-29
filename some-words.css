@@ -47,7 +47,19 @@ h2 {
     background-color: white; 
     border: 1px solid green; 
     padding: 5px;
-    margin: 5px;
+    margin: 2px;
+}
+
+@media screen and (min-width: 480px) {
+body {
+    margin: 0px 10px 10px 10px; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
 }
 
 .nouns {
@@ -61,3 +73,13 @@ h2 {
     justify-content: flex-end;
     align-items: flex-end;
 }
+}
+
+@media screen and (min-width: 992px) {
+main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+}
+
